@@ -1,0 +1,57 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+
+li{
+  list-style: none;
+ 
+}
+
+.category-btn:hover {
+  background-color:rgb(224, 224, 224) !important;
+  /* color: white !important; */
+}
+
+.category-btn:hover span{
+  color: white !important;
+}
+input{
+  padding: 9px 2px;
+  margin: 20px 2px;
+  width: 100%;
+  height: 30px;
+  border-radius: 40px;
+}
+
+
+.category-btn{
+  font-weight: bold !important;
+  font-size: 20px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(224, 224, 224); */
+  cursor:pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 50%;
+  height: 60px;
+  padding: 7px 15px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.UserProfile:hover{
+  transform: translateY(-5px);
+}
